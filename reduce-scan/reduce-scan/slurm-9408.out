@@ -1,0 +1,7 @@
+make: 'build/reduce-scan' is up to date.
+Platform name: NVIDIA CUDA
+Device name: NVIDIA GeForce GTX 1060 6GB
+           function              OpenMP        OpenCL total      OpenCL copy-in       OpenCL kernel     OpenCL copy-out    OpenMP bandwidth    OpenCL bandwidth
+Abs error: 54
+             reduce             4571 us            40809 us            38000 us             1827 us              981 us        55.0554 GB/s        137.744 GB/s
+     scan-inclusive            12569 us            69490 us            38540 us            17421 us            13528 us              0 GB/s              0 GB/s
